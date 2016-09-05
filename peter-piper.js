@@ -22,4 +22,9 @@ var counter = 0;
 // TODO: Count the number of times an uppercase P or lowercase p character
 //       occurs in the `peterpiper` string.
 
-console.log("There are " + counter + " P's in Peter Piper.");
+
+var counter = peterpiper.match(/p/gi).length;
+
+console.log("There are " + counter + " Ps in Peter Piper.")
+
+//Source: https://teamtreehouse.com/community/how-to-count-the-number-of-times-a-specific-character-appears-in-a-string
